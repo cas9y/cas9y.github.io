@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — Cas9y</title>
+  <meta name="description" content="Read how Cas9y collects, uses and protects your personal information." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --primary: #0e7c86;
+      --primary-dark: #095a62;
+      --accent: #ff7a59;
+      --dark: #0f1d2b;
+      --text: #4a5868;
+      --light: #f5f8fa;
+      --white: #ffffff;
+      --radius: 18px;
+      --shadow: 0 12px 30px rgba(15, 29, 43, 0.1);
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: "Poppins", sans-serif;
+      color: var(--text);
+      background: var(--light);
+      line-height: 1.75;
+      overflow-x: hidden;
+    }
+    a { color: var(--primary); text-decoration: none; }
+    a:hover { color: var(--accent); }
+    h1, h2, h3 { font-family: "Playfair Display", serif; color: var(--dark); line-height: 1.25; }
+    .container { width: 100%; max-width: 1180px; margin: 0 auto; padding: 0 20px; }
+
+    /* ---------- Header ---------- */
+    header { background: var(--white); box-shadow: 0 4px 20px rgba(0,0,0,.06); padding: 16px 0; position: sticky; top: 0; z-index: 100; }
+    .nav { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+    .logo { font-family: "Playfair Display", serif; font-size: 1.8rem; font-weight: 700; color: var(--dark); }
+    .logo span { color: var(--accent); }
+    .logo:hover { color: var(--dark); }
+    .back-link {
+      display: inline-block; padding: 10px 22px; border-radius: 50px; background: var(--accent);
+      color: var(--white); font-weight: 500; font-size: .9rem; transition: all .3s ease; white-space: nowrap;
+    }
+    .back-link:hover { color: var(--white); background: #f2603c; transform: translateY(-2px); }
+
+    /* ---------- Page banner ---------- */
+    .banner {
+      background: linear-gradient(120deg, var(--primary), var(--primary-dark));
+      color: var(--white); text-align: center; padding: 70px 0 110px;
+    }
+    .banner .tag { color: #ffd2c6; font-weight: 600; letter-spacing: 2px; text-transform: uppercase; font-size: .8rem; }
+    .banner h1 { color: var(--white); font-size: clamp(2rem, 5vw, 3.2rem); margin: 8px 0 10px; }
+    .banner p { opacity: .85; font-size: .95rem; }
+
+    /* ---------- Content ---------- */
+    .policy {
+      background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow);
+      max-width: 860px; margin: -70px auto 70px; padding: 50px 56px;
+    }
+    .policy .intro { font-size: 1.02rem; padding-bottom: 24px; border-bottom: 1px solid #e6ecf0; margin-bottom: 10px; }
+    .toc { background: var(--light); border-radius: 14px; padding: 22px 26px; margin: 26px 0 10px; }
+    .toc h3 { font-size: 1.1rem; margin-bottom: 10px; }
+    .toc ol { padding-left: 20px; columns: 2; column-gap: 30px; font-size: .92rem; }
+    .toc li { margin-bottom: 4px; break-inside: avoid; }
+    .policy section { padding-top: 30px; scroll-margin-top: 90px; }
+    .policy h2 { font-size: 1.5rem; margin-bottom: 12px; display: flex; gap: 12px; align-items: baseline; }
+    .policy h2 .num { color: var(--accent); font-size: 1.1rem; }
+    .policy p { margin-bottom: 12px; }
+    .policy ul { padding-left: 22px; margin-bottom: 12px; }
+    .policy li { margin-bottom: 6px; }
+    .policy strong { color: var(--dark); font-weight: 500; }
+    .contact-card {
+      background: var(--light); border-left: 4px solid var(--accent); border-radius: 12px; padding: 18px 22px; margin-top: 10px;
+    }
+
+    /* ---------- Footer ---------- */
+    footer { background: var(--dark); color: #aab6c3; padding: 50px 0; }
+    .footer-simple { text-align: center; }
+    footer .logo { display: inline-block; margin-bottom: 18px; color: var(--white); }
+    footer .logo:hover { color: var(--white); }
+    .disclaimer { max-width: 760px; margin: 0 auto; font-size: .85rem; line-height: 1.7; }
+    .disclaimer strong { color: var(--white); font-weight: 500; }
+    .footer-link { display: inline-block; margin-top: 14px; font-size: .85rem; color: #aab6c3; }
+
+    /* ---------- Responsive ---------- */
+    @media (max-width: 768px) {
+      .policy { padding: 34px 24px; margin: -60px 16px 50px; }
+      .toc ol { columns: 1; }
+      .banner { padding: 50px 0 100px; }
+    }
+    @media (max-width: 420px) {
+      .logo { font-size: 1.5rem; }
+      .back-link { padding: 8px 16px; font-size: .82rem; }
+      .policy h2 { font-size: 1.3rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="container nav">
+      <a href="index.html" class="logo">Cas<span>9</span>y</a>
+      <a href="index.html" class="back-link">← Back to Home</a>
+    </div>
+  </header>
+
+  <div class="banner">
+    <div class="container">
+      <span class="tag">Legal</span>
+      <h1>Privacy Policy</h1>
+      <p>Last updated: November 19, 2026</p>
+    </div>
+  </div>
+
+  <main class="container">
+    <article class="policy">
+      <p class="intro">
+        At <strong>Cas9y</strong> (“we”, “us”, “our”), your privacy matters to us. This Privacy Policy explains what
+        information we collect when you visit our website, how we use it, and the choices you have. By using our website,
+        you agree to the practices described below.
+      </p>
+
+      <nav class="toc" aria-label="Contents">
+        <h3>Contents</h3>
+        <ol>
+          <li><a href="#collect">Information We Collect</a></li>
+          <li><a href="#use">How We Use Your Information</a></li>
+          <li><a href="#cookies">Cookies & Similar Technologies</a></li>
+          <li><a href="#third-party">Third-Party Services</a></li>
+          <li><a href="#sharing">Sharing of Information</a></li>
+          <li><a href="#security">Data Security</a></li>
+          <li><a href="#retention">Data Retention</a></li>
+          <li><a href="#rights">Your Rights</a></li>
+          <li><a href="#children">Children’s Privacy</a></li>
+          <li><a href="#links">External Links</a></li>
+          <li><a href="#changes">Changes to This Policy</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ol>
+      </nav>
+
+      <section id="collect">
+        <h2><span class="num">01</span> Information We Collect</h2>
+        <p>We collect only the information needed to provide and improve our services:</p>
+        <ul>
+          <li><strong>Information you provide:</strong> such as your email address when you subscribe to our newsletter, or your name, phone number and travel preferences when you contact us or make an enquiry.</li>
+          <li><strong>Technical information:</strong> such as your IP address, browser type, device type, operating system and pages visited, which may be collected automatically when you browse the site.</li>
+          <li><strong>Search details:</strong> destinations, dates and number of travellers you enter in our search form, used only to show you relevant results.</li>
+        </ul>
+      </section>
+
+      <section id="use">
+        <h2><span class="num">02</span> How We Use Your Information</h2>
+        <ul>
+          <li>To respond to your enquiries and help plan your trips.</li>
+          <li>To send newsletters, travel inspiration and offers you have subscribed to.</li>
+          <li>To operate, maintain and improve our website and services.</li>
+          <li>To understand how visitors use our website.</li>
+          <li>To protect against fraud, misuse and security threats.</li>
+          <li>To comply with applicable legal obligations.</li>
+        </ul>
+        <p>You can unsubscribe from marketing emails at any time using the link included in every email.</p>
+      </section>
+
+      <section id="cookies">
+        <h2><span class="num">03</span> Cookies & Similar Technologies</h2>
+        <p>
+          Our website may use cookies and similar technologies to remember your preferences and understand how the site
+          is used. You can control or delete cookies through your browser settings. Disabling cookies may affect how some
+          parts of the website work.
+        </p>
+      </section>
+
+      <section id="third-party">
+        <h2><span class="num">04</span> Third-Party Services</h2>
+        <p>
+          We use trusted third-party services to run our website, such as font providers (e.g. Google Fonts), image hosting
+          services, email newsletter providers and analytics tools. These providers may process limited information, such as
+          your IP address, as needed to deliver their services, and they are governed by their own privacy policies.
+        </p>
+      </section>
+
+      <section id="sharing">
+        <h2><span class="num">05</span> Sharing of Information</h2>
+        <p>We do <strong>not</strong> sell or rent your personal information. We may share it only:</p>
+        <ul>
+          <li>With travel partners (such as hotels, airlines or tour operators) when needed to fulfil a booking you request.</li>
+          <li>With service providers who help us run our website and communications, under confidentiality obligations.</li>
+          <li>When required by law, regulation or legal process, or to protect our rights and users.</li>
+        </ul>
+      </section>
+
+      <section id="security">
+        <h2><span class="num">06</span> Data Security</h2>
+        <p>
+          We take reasonable technical and organisational measures to protect your information against unauthorised access,
+          loss or misuse. However, no method of transmission over the internet is completely secure, and we cannot guarantee
+          absolute security.
+        </p>
+      </section>
+
+      <section id="retention">
+        <h2><span class="num">07</span> Data Retention</h2>
+        <p>
+          We keep personal information only for as long as necessary for the purposes described in this policy, or as
+          required by law. When it is no longer needed, we securely delete or anonymise it.
+        </p>
+      </section>
+
+      <section id="rights">
+        <h2><span class="num">08</span> Your Rights</h2>
+        <p>Depending on where you live, you may have the right to:</p>
+        <ul>
+          <li>Access the personal information we hold about you.</li>
+          <li>Request correction of inaccurate information.</li>
+          <li>Request deletion of your information.</li>
+          <li>Withdraw consent or opt out of marketing communications.</li>
+          <li>Object to or restrict certain processing.</li>
+        </ul>
+        <p>To exercise any of these rights, please contact us using the details below.</p>
+      </section>
+
+      <section id="children">
+        <h2><span class="num">09</span> Children’s Privacy</h2>
+        <p>
+          Our website is not intended for children under 13 years of age, and we do not knowingly collect personal
+          information from them. If you believe a child has provided us with personal information, please contact us and
+          we will delete it.
+        </p>
+      </section>
+
+      <section id="links">
+        <h2><span class="num">10</span> External Links</h2>
+        <p>
+          Our website may contain links to other websites. We are not responsible for the privacy practices or content of
+          those sites, and we encourage you to read their privacy policies.
+        </p>
+      </section>
+
+      <section id="changes">
+        <h2><span class="num">11</span> Changes to This Policy</h2>
+        <p>
+          We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated
+          “Last updated” date. We encourage you to review this page periodically.
+        </p>
+      </section>
+
+      <section id="contact">
+        <h2><span class="num">12</span> Contact Us</h2>
+        <p>If you have any questions about this Privacy Policy or how we handle your information, please reach out:</p>
+        <div class="contact-card">
+          <strong>Cas9y</strong><br />
+          Email: <a href="mailto:hello@cas9y.com">hello@cas9y.com</a>
+        </div>
+      </section>
+    </article>
+  </main>
+
+  <footer>
+    <div class="container footer-simple">
+      <a href="index.html" class="logo">Cas<span>9</span>y</a>
+      <p class="disclaimer">
+        <strong>Disclaimer:</strong> The information on this website is provided for general informational purposes only.
+        Destinations, prices, availability and offers shown are indicative and may change without notice.
+        Images are for illustration purposes only. Please verify all details before making any travel plans or bookings.
+      </p>
+      <a href="privacy-policy.html" class="footer-link">Privacy Policy</a>
+    </div>
+  </footer>
+
+</body>
+</html>
